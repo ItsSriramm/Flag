@@ -78,9 +78,9 @@ function App() {
           value={searchTerm}
           onChange={handleSearch}
           style={{
-            backgroundColor: colors.bgColor,  // Set input background to match the app background
-            color: colors.fontColor,  // Set font color based on the app's font color
-            border: `1px solid ${colors.fontColor}`,  // Border color based on font color
+            backgroundColor: colors.bgColor,  
+            color: colors.fontColor,  
+            border: `1px solid ${colors.fontColor}`,  
             padding: "0.5rem",
             borderRadius: "4px",
             marginRight: "1rem",
@@ -92,9 +92,9 @@ function App() {
           onChange={(e) => setRegion(e.target.value)}
           className="region-select"
           style={{
-            backgroundColor: colors.bgColor,  // Set select dropdown background to match the app background
-            color: colors.fontColor,  // Set font color based on the app's font color
-            border: `1px solid ${colors.fontColor}`,  // Border color based on font color
+            backgroundColor: colors.bgColor,  
+            color: colors.fontColor,  
+            border: `1px solid ${colors.fontColor}`, 
             padding: "0.5rem",
             borderRadius: "4px",
           }}
