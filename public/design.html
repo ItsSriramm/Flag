@@ -11,7 +11,7 @@
         padding: 20px;
         flex-direction: row;
         justify-content: space-between;
-        color: white; /* Default color */
+        color: white; 
     }
 
     .left-column {
@@ -86,16 +86,16 @@
         capital: params.get("capital"),
         imageurl: params.get("imageurl"), 
         bgColor: params.get("bgColor"),
-        fontColor: params.get("fontColor"), // Read fontColor
+        fontColor: params.get("fontColor"), 
       };
     }
 
     function renderDetails() {
       const { title, population, region, capital, imageurl, bgColor, fontColor } = getQueryParams();
 
-      // Apply background and text color to body
+
       document.body.style.backgroundColor = bgColor;
-      document.body.style.color = fontColor;  // Apply text color
+      document.body.style.color = fontColor;  
 
       const countryFlag = document.getElementById("country-flag");
       countryFlag.src = imageurl;  
